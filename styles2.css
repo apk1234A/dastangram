@@ -1,0 +1,14 @@
+button { 
+            background-color: #2B4D8D; 
+            color: #FFF; 
+            border-radius: 15px; 
+            border: none; /* حذف حاشیه */
+            padding: 12px 40px; 
+            margin-top: 20px; 
+            cursor: pointer; /* تغییر شکل نشانگر به دست */
+            transition: background-color 0.3s; /* انیمیشن تغییر رنگ */
+        }
+
+        button:hover {
+            background-color: #1B3E70; /* رنگ دکمه در حالت هاور */
+        }

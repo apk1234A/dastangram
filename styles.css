@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-image: url('background.png');
+    background-size: cover;
+    padding: 20px;
+    text-align: right;
+    direction: rtl;
+  }
+  @font-face {
+    font-family: 'ANafis';
+    src: url('fonts/ANafis.ttf') format('truetype');
+  }
+h2, p, h3 {
+  font-family: 'ANafis';
+}
+.progress-bar-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background-color: #ddd;
+            z-index: 9999; /* از همه چیز بالاتر باشد */
+        }
+        .progress-bar {
+            height: 100%;
+            width: 0;
+            background-color: #4caf50;
+            transition: width 0.1s ease-out;
+        }
